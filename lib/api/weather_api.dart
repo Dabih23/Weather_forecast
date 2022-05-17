@@ -21,7 +21,6 @@ class WeatherApi {
 
     var response = await http.get(uri);
 
-    // print('response: ${response.body}');
     log('response: ${response.body}');
 
     if (response.statusCode == 200) {
